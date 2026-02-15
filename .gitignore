@@ -19,3 +19,9 @@ venv/
 # --- OS / Editor ---
 .DS_Store
 .vscode/
+
+# Ignore hidden macOS files starting with .
+.*
+
+# Or at least ignore this specific file
+.~$*
